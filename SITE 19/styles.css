@@ -1,0 +1,113 @@
+p,
+h2,
+h3,
+div {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'arial'
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, #e3b9cd, #dadcf1);
+    /*   background: #dadcf1; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_container {
+    width: 30%;
+    height: 80%;
+    /*   border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.profile_image {
+    width: 30%;
+    height: 25%;
+    border-radius: 50%;
+    margin-bottom: 1.2rem;
+    position: relative;
+}
+
+.profile_image>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.profile_name {
+    color: #6f6f6f;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.profile_about {
+    color: #aaaaaa;
+    font-size: 1.1rem;
+    margin-bottom: 1.2rem;
+}
+
+.followers {
+    width: 60%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.social_status {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_status>h3 {
+    color: #9a46e4;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.social_status>p {
+    color: #aaaaaa;
+    font-size: 0.9rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.social_button {
+    width: 60%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social_button>button {
+    height: 100%;
+    width: 45%;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.social_button>button:first-of-type {
+    background: #9a46e4;
+}
+
+.social_button>button:last-of-type {
+    background: #e03b9d;
+}
